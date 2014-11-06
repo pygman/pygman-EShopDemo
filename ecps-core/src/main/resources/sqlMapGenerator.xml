@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC
+	"-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+	"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<classPathEntry location="D:\Maven\shoprepository\repository\com\oracle\ojdbc14\10.2.0.2.0\ojdbc14-10.2.0.2.0.jar"/>
+	<context id="context">
+		<jdbcConnection driverClass="oracle.jdbc.OracleDriver"
+			connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:orcl" userId="pygman"
+			password="******"/>
+		<javaModelGenerator targetPackage="com.pygman.model" targetProject="ecps-core"/>
+		<sqlMapGenerator targetPackage="com.pygman.mapper" targetProject="ecps-core"/>
+		<table tableName="eb_item" schema="" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+		</table>
+	</context>
+</generatorConfiguration>

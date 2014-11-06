@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ecps-image:war">
+    <output-path>$PROJECT_DIR$/ecps-image/target</output-path>
+    <root id="archive" name="ecps-image-1.0-SNAPSHOT.war" />
+  </artifact>
+</component>

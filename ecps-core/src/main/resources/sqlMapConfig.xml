@@ -1,0 +1,19 @@
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<mappers>
+		<mapper resource="com/pygman/mapper/EbBrandMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbFeatureMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbItemMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbItemClobMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbSkuMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbParaValueMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbSpecValueMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbConsoleLogMapper.xml"/>
+		<mapper resource="com/pygman/mapper/TsPtlUserMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbShipAddrMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbOrderMapper.xml"/>
+		<mapper resource="com/pygman/mapper/EbOrderDetailMapper.xml"/>
+	</mappers>
+</configuration>
